@@ -15,7 +15,7 @@ Meteor [Momentum](https://github.com/percolatestudio/meteor-momentum) plugin for
 
 Where transition is the name of the helper function returned:
 
-```
+````
 Template.X.helpers({
     transition : function() { 
         return function(from, to, element) {
@@ -31,7 +31,7 @@ Template.X.helpers({
         }
     }
 });
-
+````
 
 ## Hints 
 
